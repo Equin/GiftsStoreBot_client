@@ -1,0 +1,78 @@
+.autorization{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+}
+
+.autoriz-block{
+    box-sizing: border-box;
+   
+    justify-content: center;
+
+width: 646px;
+
+
+background: linear-gradient(119.75deg, rgba(131, 131, 131, 0.28) -1.43%, rgba(255, 255, 255, 0) 109.6%);
+backdrop-filter: blur(25px);
+/* Note: backdrop-filter has minimal browser support */
+
+border-radius: 30px;
+}
+
+.a-title, .a-choose, .a-button,.a-input-1,.a-input-2, .a-registration {
+    text-align: center;
+}
+
+.a-title{
+    font-size: 36px;
+    font-weight: bold;
+    margin-top: 82px;
+    margin-bottom: 50px;
+   
+
+}
+
+a:visited{
+    color:  #ffffff;
+}
+.a-choose{
+    font-size: 18px;
+    font-weight: 700;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 37px;
+    
+}
+.a-choose-1{
+    margin-right: 30px;
+}
+.a-input-1 >input ,.a-input-2 > input{
+    padding: 14px 250px 14px 18px;
+    border-radius: 30px;
+    border: 1px solid #397340;
+    font-family: 'Montserrat';
+}
+
+.a-input-1, .a-input-2 {
+    margin-bottom: 24px;
+}
+.add-button {
+    padding: 15px 78px;
+    border-radius: 30px;
+    background-color: #397340;
+    color: #ffffff;
+    font-weight: bold;
+    font-family: 'Montserrat';
+    border: none;
+    margin-bottom: 24px;
+}
+
+.a-registration{
+    color: #ffffff;
+    font-size: 14px;
+    font-weight: 100;
+    margin-bottom: 50px;
+}

@@ -1,0 +1,29 @@
+.text-request, .input-request,.button-request {
+    text-align: center;
+}
+
+.input-request > input{
+    padding: 14px 250px 14px 18px;
+    border-radius: 30px;
+    border: 1px solid #397340;
+    font-family: 'Montserrat';
+}
+
+.button-request > button{
+    padding: 10px 20px;
+    border-radius: 30px;
+    border: none;
+    background-color: #397340;
+    color: white;
+    font-weight: bold;
+}
+
+.text-request{
+    margin-top: 20px;
+}
+.input-request{
+    margin-top: 40px;
+}
+.button-request{
+    margin-top: 20px;
+}

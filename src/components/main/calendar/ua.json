@@ -1,0 +1,39 @@
+{
+    "common": {
+    "noEvents": "Немає подій"
+    },
+    "buttons": {
+    "today": "Сьогодні",
+    "agenda": "План",
+    "day": "День",
+    "threeDays": "3 дні",
+    "week": "Тиждень",
+    "month": "Місяць",
+    "showMore": "Більше...",
+    "newEvent": "нова подія"
+    },
+    "months": {
+    "january": "Січень",
+    "february": "Лютий",
+    "march": "Березень",
+    "april": "Квітень",
+    "may": "Травень",
+    "june": "Червень",
+    "july": "Липень",
+    "august": "Серпень",
+    "september": "Вересень",
+    "october": "Жовтень",
+    "november": "Листопад",
+    "december": "Грудень"
+    },
+    "weekDays": {
+    "Mon": "Пн",
+    "Tue": "Вт",
+    "Wed": "Ср",
+    "Thu": "Чт",
+    "Fri": "Пт",
+    "Sat": "Сб",
+    "Sun": "Нд"
+    },
+    "weekShort": "Тиж"
+    }

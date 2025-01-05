@@ -1,0 +1,35 @@
+.notifications{
+    display: flex;
+    flex-direction: column;
+    font-family: 'Montserrat';
+    padding: 40px 60px;
+    max-width: 1200px;
+
+    height: 600px; 
+
+
+
+}
+
+
+
+.notif-flowers-table{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.notif-text, .notif-day{
+    text-align: center;
+}
+
+.notif-title{
+    color:#397340; 
+    font-weight: bold;
+}
+
+.notif-day{
+    margin-top: 30px;
+    margin-bottom: 22px;
+
+}

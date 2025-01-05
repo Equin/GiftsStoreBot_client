@@ -1,0 +1,121 @@
+.search > input{
+    padding: 13px 241px 13px 27px;
+    border-radius: 30px;
+    border: 1px solid #397340;
+    font-family: 'Montserrat';
+}
+
+
+/*
+пошук слайдер
+.search-box {
+    margin-top: 30px;
+    position: absolute;
+    left:50%;
+   transform: translate(-50%);
+    background: #397340;
+    height: 40px;
+    border-radius: 40px;
+    padding: 10px;
+    }
+    .search-box:hover > .search-txt {
+    width: 240px;
+    padding: 0 6px;
+    }
+    .search-box:hover > .search-btn {
+    background: white;
+    color: black;
+    }
+    .search-btn {
+    color: #eeeeee;
+    float: right;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background: #86B98C;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: 0.4s;
+    color: white;
+    cursor: pointer;
+    text-decoration:none;
+    }
+    .search-btn > i {
+    font-size: 20px;
+    }
+    .search-txt {
+    border: none;
+    background: none;
+    outline: none;
+    float: left;
+    padding: 0;
+    color: white;
+    font-size: 16px;
+    transition: 0.4s;
+    line-height: 40px;
+    width: 0px;
+    font-weight: bold;
+    }
+    
+   */
+
+   	
+		.search-container {
+			position: relative;
+			display: flex;
+			justify-content: center;
+			align-items: center;
+			margin: 50px auto;
+			max-width: 500px;
+			height: 50px;
+			background-color: #fff;
+			border-radius: 50px;
+			box-shadow: 3px 3px 15px rgba(0,0,0,0.1);
+			overflow: hidden;
+			transition: all 0.3s ease-in-out;
+		}
+		
+		.search-container:hover {
+			box-shadow: 0px 5px 10px rgba(0,0,0,0.2);
+			height: 60px;
+		}
+		
+		.search-container:hover .search-input {
+			width: 80%;
+			padding: 0 20px;
+			opacity: 1;
+		}
+		
+		.search-input {
+			position: absolute;
+			top: 0;
+			left: 0;
+			height: 100%;
+			width: 0%;
+			padding: 0;
+			border: none;
+			background-color: transparent;
+			color: #333;
+			font-size: 16px;
+			opacity: 0;
+			transition: all 0.3s ease-in-out;
+		}
+		
+		.search-button {
+			position: absolute;
+			top: 0;
+			right: 0;
+			height: 100%;
+			width: 100px;
+			border: none;
+			background-color: #397340;
+			color: #fff;
+			font-size: 16px;
+			cursor: pointer;
+			transition: all 0.3s ease-in-out;
+		}
+		
+		.search-button:hover {
+			background-color: #444;
+		}

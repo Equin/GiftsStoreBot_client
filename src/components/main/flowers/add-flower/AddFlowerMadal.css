@@ -1,0 +1,178 @@
+.add-photo, .add-photo-coll1{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 40%;
+}
+
+.add-photo input{
+    margin: 0 auto;
+    display: none;
+}
+
+
+textarea, input {
+    resize: none; /* Запретить изменение размера текстового поля */
+    overflow: auto; /* Включить прокрутку, если текст не помещается в поле */
+  }
+
+
+
+  .add-flower-details{
+    display: flex;
+    max-width: 1500px;
+	min-width: 320px;
+	padding:0 20px;
+    margin: 0 auto;
+}
+
+.add-flower-details-img{
+   border: 1px solid #397340;
+   border-radius: 30px;
+    width: 600px;
+    margin-left: 30px;
+    margin-right: 50px;
+}
+
+.add-flower-details-img > img{
+    width: 100%;
+    object-fit: cover;
+    border-radius: 30px;
+    box-shadow: 0px 5px 50px rgba(0, 0, 0, 0.25);
+}
+
+.add-name{
+    font-size: 20px;
+    font-weight: bold;
+    width: 500px;
+    border: none;
+    box-sizing: border-box;
+}
+
+.add-arrow {
+    margin-top: 34px;
+    display: flex;
+    align-items: center;
+}
+.add-icon{
+    margin-right: 10px;
+}
+.add-flowers-details-name {
+    margin-top: 36px;
+    font-size: 20px;
+    font-weight: bold;
+}
+.add-flowers-details-description {
+    margin-top: 24px;
+    font-size: 14px;
+}
+.add-flowers-details-description > textarea{
+    background: #F5F5F5; 
+    padding: 40px;  
+    border: 1px solid #397340;
+    width: 100%;
+    height: 280px; 
+  
+    font-size: 14px;
+   
+    box-sizing: border-box;
+
+
+   
+    border-radius: 30px;
+}
+.add-flower-details-small-description{
+    margin-top: 30px;
+    font-size: 14px;
+}
+       
+.add-details-with-icons {
+    margin-top: 20px;
+    display: flex;
+ font-size: 14px;
+   
+}
+
+.add-filters-details{
+    margin-top: 20px;
+    display: flex
+   
+}
+.add-filters-details > ul {
+    flex-wrap: wrap;
+}
+.add-add-button > button{
+    padding: 15px 20px;
+    border-radius: 30px;
+    background-color: #397340;
+    color: #ffffff;
+    font-weight: bold;
+    font-family: 'Montserrat';
+}
+
+
+.button-style {
+    padding: 10px 20px;
+    border:1px;
+    border-radius: 20px;
+    background-color: #397340;
+    color: #ffffff;
+    font-weight: bold;
+    font-family: 'Montserrat';
+    align-self: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
+
+.add-card-small-name {
+    padding-bottom: 10px;
+    font-size: 14px;
+    font-weight: bold;
+}
+
+.select{
+    display: flex;
+    align-items: center;
+}
+.selects{
+    margin-right: 29px;
+   color: #333;
+    background: #F5F5F5; 
+    padding: 4px;  
+    border: 1px solid #397340;
+    border-radius: 30px;
+}
+
+.add-card-small-description-1 > input{
+    margin-right: 10px;
+    margin-bottom: 8px;
+    width: 10px;
+    background: #F5F5F5; 
+    padding: 6px 10px;  
+    border: 1px solid #397340;
+    border-radius: 30px;
+}
+
+.add-card-small-description-2 > input{
+    margin-right: 67px;
+    margin-bottom: 8px;
+    width: 89px;
+    background: #F5F5F5; 
+    padding: 6px 10px;  
+    border: 1px solid #397340;
+    border-radius: 30px;
+}
+
+.add-add-button{
+    margin-top: 45px;
+}
+.add-flower-details-coll-2{
+    width: 60%;
+}
+.text1{
+    padding: 30px;
+}

@@ -1,0 +1,41 @@
+.menu-ul{
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.menu{
+    margin: auto;
+    margin-top: 100px;
+    max-width: 1300px;
+	min-width: 320px;
+	padding:0 20px;
+}
+
+.menu-ul{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.menu-ul > li{
+    margin-right: 96px !important;
+}
+
+.menu-ul li:not(:last-child){
+    margin-right:100px ;
+}
+
+.menu-ul li {
+    transition: color 0.3s ease; 
+    cursor: pointer;
+  }
+  
+.menu-ul li:hover {
+    color: #718A44; 
+  
+}
+  
+  
+.menu-ul li.active {
+    color: #397340; 
+}

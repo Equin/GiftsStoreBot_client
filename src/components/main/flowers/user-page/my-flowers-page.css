@@ -1,0 +1,11 @@
+.my-flowers-container{
+    margin-top: 50px;
+    display: flex;
+
+}
+
+.cards{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
